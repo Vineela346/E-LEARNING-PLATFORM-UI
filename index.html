@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CodTech E‑Learning</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="./.index.html" class="text-xl font-bold">CodTech</a>
+      <div class="space-x-4">
+        <a href="./.index.html" class="hover:text-green-600">Courses</a>
+        <a href="./.certificate.html" class="hover:text-green-600">Certificate</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="container mx-auto px-6 py-10 text-center">
+    <h1 class="text-3xl font-bold">Welcome to CodTech</h1>
+    <p class="mt-2">Learn, track progress & earn certificates</p>
+  </header>
+
+  <!-- Course Listing -->
+  <main class="container mx-auto px-6 pb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <!-- Course Card -->
+    <div class="bg-white rounded-lg shadow p-6">
+      <h2 class="text-xl font-semibold">JavaScript Basics</h2>
+      <div class="mt-4">
+        <div class="bg-gray-200 rounded-full h-4">
+          <div class="bg-green-500 h-4 rounded-full" style="width: 40%"></div>
+        </div>
+        <span class="text-sm text-gray-600">40% Complete</span>
+      </div>
+      <a href="./.course.html" class="mt-4 inline-block bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Resume</a>
+    </div>
+
+    <!-- Duplicate for demo -->
+    <div class="bg-white rounded-lg shadow p-6">
+      <h2 class="text-xl font-semibold">HTML & CSS</h2>
+      <div class="mt-4">
+        <div class="bg-gray-200 rounded-full h-4">
+          <div class="bg-green-500 h-4 rounded-full" style="width: 75%"></div>
+        </div>
+        <span class="text-sm text-gray-600">75% Complete</span>
+      </div>
+      <a href="./.course.html" class="mt-4 inline-block bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Resume</a>
+    </div>
+
+    <div class="bg-white rounded-lg shadow p-6">
+      <h2 class="text-xl font-semibold">Node.js & Express</h2>
+      <div class="mt-4">
+        <div class="bg-gray-200 rounded-full h-4">
+          <div class="bg-green-500 h-4 rounded-full" style="width: 20%"></div>
+        </div>
+        <span class="text-sm text-gray-600">20% Complete</span>
+      </div>
+      <a href="./.course.html" class="mt-4 inline-block bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Start</a>
+    </div>
+  </main>
+</body>
+</html>
